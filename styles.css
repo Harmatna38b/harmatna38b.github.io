@@ -259,6 +259,7 @@ body {
 	background-attachment: scroll;
 	background-size: cover;
 	padding: 8rem;
+	
 }
 
 .siteSection h1 {
@@ -275,7 +276,7 @@ body {
 
 @media (min-width: 992px) {
   .siteSection {
-    height: 100vh;
+    min-height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
@@ -344,7 +345,7 @@ body {
 }
 
 .h-100 {
-  height: 100% !important;
+  min-height: 100% !important;
 }
 
 hr.divider {
