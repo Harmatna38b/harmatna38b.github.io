@@ -258,10 +258,18 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+	padding: 8rem;
 }
 
 .siteSection h1 {
 	font-size: 2.25rem;
+}
+
+@media (max-width: 600px) {
+  .siteSection {
+    padding-left: 1rem !important;
+	padding-right: 1rem !important;
+  }
 }
 
 
@@ -292,6 +300,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+	padding-top: 10rem !important;
+	padding-bottom: calc(10rem - 4.5rem) !important;
 }
 
 #current {
@@ -321,7 +331,7 @@ body {
 
 
 .text-white-75 {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .btn-xl {
