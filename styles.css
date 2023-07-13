@@ -460,6 +460,12 @@ hr.divider-light {
   cursor: pointer;
 }
 
+.faq-button:hover {
+  background-color: #03a1fc;
+  color: white;
+  font-weight:bold;
+}
+
 .faq-content {
   text-align: center;
   margin-bottom: 20px;
