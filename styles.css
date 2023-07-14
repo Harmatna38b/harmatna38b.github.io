@@ -474,3 +474,75 @@ hr.divider-light {
   padding: 10px;
   border-radius: 5px; /* Optional: this will make the corners slightly rounded */
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#about-us {
+ 
+	background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(100, 100, 100, 0.9) 100%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+  
+}
+
+#about-us h2, #about-us h3, #about-us h4, #about-us p {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+
+#about-us p {
+  text-align: justify;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member {
+  flex: 1 0 250px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+
+}
+
+.videodiv {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+.member img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.member h4 {
+  margin-top: 10px;
+  color: #444;
+}
+
+.member p {
+  color: #666;
+}
+
+#myVideo {
+  display: none;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+}
+a:hover {
+  cursor: pointer;
+}

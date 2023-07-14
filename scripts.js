@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+    function toggleVideo() {
+      var video = document.getElementById("myVideo");
+      var style = window.getComputedStyle(video);
+      video.style.display = (style.display == 'none') ? 'block' : 'none';
+    }
