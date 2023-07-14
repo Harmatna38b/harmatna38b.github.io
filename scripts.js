@@ -53,8 +53,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-    function toggleVideo() {
-      var video = document.getElementById("myVideo");
+    function toggleVideo(videoid) {
+      var video = document.getElementById(videoid);
       var style = window.getComputedStyle(video);
       video.style.display = (style.display == 'none') ? 'block' : 'none';
     }
