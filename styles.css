@@ -520,10 +520,15 @@ body {
 	display: flex;
 }
 
-.member img {
+.memberImage {
   width: 250px;
   height: 250px;
   border-radius: 20%;
+  object-fit: cover;
+}
+
+.memberName {
+  
   object-fit: cover;
 }
 
