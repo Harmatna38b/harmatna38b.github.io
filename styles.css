@@ -357,6 +357,26 @@ body {
 	border-radius: 5px;
 }
 
+.centered-container {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+.text-block-left {
+	text-align: left;
+	color: rgba(255, 255, 255, 1) !important;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.text-block-left p {
+	font-size: 0.95rem !important;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
 .collapsedDetails p {
   color: rgba(255, 255, 255, 0.95) !important;
   text-align: justify;
