@@ -594,6 +594,13 @@ body {
   width: 250px;
 }
 
+.memberNameAndPhone {
+   width: 250px;
+   height: 80px;
+  object-fit: cover;
+  width: 250px;
+}
+
 .member h4 {
   margin-top: 10px;
   color: #444;
@@ -611,4 +618,69 @@ body {
 }
 a:hover {
   cursor: pointer;
+}
+
+.download-images {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    margin-top: 18px;
+	background-color: #E0E0FF;
+	max-width: 380px;
+	padding: 15px;
+	border-radius: 10px;
+	align-self: center;
+	justify-content: center;
+}
+
+.download-images .qr-code {
+    margin-right: 50px
+}
+
+.download-images .qr-code.hidden {
+    display: none
+}
+
+.download-images .qr-code.visible {
+    display: block
+}
+
+@media screen and (max-width: 1140px) {
+    .download-images .qr-code {
+        margin-right:30px
+    }
+}
+
+.download-images .qr-code img,.download-images .qr-code picture {
+    width: 130px;
+    height: 130px
+}
+
+.download-images .market-links {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    width: 100%;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    cursor: pointer;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0
+}
+
+.download-images .market-links a.hidden {
+    display: none
+}
+
+.download-images .market-links a.visible {
+    display: block
+}
+
+.download-images .market-links img:hover,.download-images .market-links picture:hover {
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%)
 }
