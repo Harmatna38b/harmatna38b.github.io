@@ -588,10 +588,9 @@ body {
 }
 
 .memberName {
-   width: 250px;
+   width: 125px;
    height: 40px;
   object-fit: cover;
-  width: 250px;
 }
 
 .memberNameAndPhone {
